@@ -16,7 +16,7 @@ call_before_the_prompt () {
 }
 
 export PROMPT_COMMAND=call_before_the_prompt
-export PS1='\[\e[0;32m\][\w]\[\e[0;37m\]$__PROMPT_PREPEND\[\e[1;35m\]$__PROMPT_BRANCH\[\e[0m\]\n$__PROMPT_RETURN_INDICATOR\[\e[1;36m\]\u \[\e[1;33m\]➜\[\e[0m\]  '
+export PS1='\[\e[0;32m\][\w]\[\e[0;37m\]${__PROMPT_PREPEND}\[\e[1;35m\]${__PROMPT_BRANCH}\[\e[0m\]\n${__PROMPT_RETURN_INDICATOR}\[\e[1;36m\]\u \[\e[1;33m\]➜\[\e[0m\]  '
 
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
